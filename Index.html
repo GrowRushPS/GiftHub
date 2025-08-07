@@ -2,65 +2,72 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GrowRushPS - GiftHub</title>
+  <title>GrowRushPS – GiftHub</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #111, #333);
-      color: #fff;
+      background-color: #f4f4f4;
+      color: #333;
       margin: 0;
-      padding: 0;
-      text-align: center;
+      padding: 20px;
     }
+
     header {
-      background-color: #222;
-      padding: 30px 20px;
+      text-align: center;
+      margin-bottom: 40px;
     }
+
     h1 {
       font-size: 2.5em;
-      margin-bottom: 10px;
-      color: #00e676;
+      color: #6a1b9a;
     }
-    p {
-      font-size: 1.1em;
-      margin: 0 10px 20px;
-    }
-    .button {
-      background-color: #00e676;
-      color: #000;
-      padding: 12px 24px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: background 0.3s ease;
-    }
-    .button:hover {
-      background-color: #00c853;
-    }
-    footer {
-      margin-top: 50px;
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
       padding: 20px;
-      background-color: #111;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .feature {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
       font-size: 0.9em;
-      color: #aaa;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>🎁 GrowRushPS - GiftHub</h1>
-    <p>Platform resmi untuk event, hadiah, dan fitur komunitas GrowRushPS.</p>
-    <a class="button" href="https://github.com/Grow-Rush-PS/GiftHub" target="_blank">Lihat di GitHub</a>
-  </header>
+  <div class="container">
+    <header>
+      <h1>GrowRushPS – GiftHub</h1>
+      <p>Hadiah otomatis dan sistem pengelolaan server Growtopia Private Server (GTPS)</p>
+    </header>
 
-  <main>
-    <p>🎉 Sistem reward otomatis. 🎮 Event unik. 💎 Item custom. 🔐 Server GTPS terbaik!</p>
-    <p>Web ini sedang dikembangkan. Tetap pantau update terbaru dari tim kami.</p>
-  </main>
+    <section class="feature">
+      <h2>🎁 Fitur Utama</h2>
+      <ul>
+        <li>✅ Otomatisasi hadiah melalui API GTPS (Port 24226)</li>
+        <li>📦 Mini game, Gacha, dan Item Custom</li>
+        <li>🔐 Sistem role & akses berdasarkan pembayaran</li>
+        <li>🚀 Siap dikembangkan komunitas</li>
+      </ul>
+    </section>
 
-  <footer>
-    &copy; 2025 GrowRushPS Team. All rights reserved.
-  </footer>
+    <section class="feature">
+      <h2>📘 Dokumentasi</h2>
+      <p>Cek file <code>README.md</code> atau dokumentasi lainnya untuk panduan integrasi.</p>
+    </section>
+
+    <footer>
+      © 2025 GrowRushPS. Dibuat dengan ❤️ oleh komunitas GTPS Indonesia.
+    </footer>
+  </div>
 </body>
 </html>
