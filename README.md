@@ -1,51 +1,21 @@
-# 🎁 GrowRushPS – GiftHub
+# GrowRushPS – GiftHub
 
-**GiftHub** adalah repositori resmi untuk proyek server private **GrowRushPS**, yang menyediakan sistem hadiah otomatis, web landing page, konfigurasi event, dan fitur custom lainnya untuk komunitas Growtopia.
+Hadiah otomatis dan sistem pengelolaan server Growtopia Private Server (GTPS).
 
----
+## Fitur
 
-## ✨ Fitur Utama
+- Otomatisasi hadiah melalui API GTPS (Port 24226)
+- Mini game, Gacha, dan Item Custom
+- Sistem role & akses berdasarkan pembayaran
+- Siap dikembangkan komunitas
 
-- ⚙️ **Konfigurasi Hadiah Otomatis**
-  - Sistem auto-reward via API GTPS (port 24226)
-  - Role ID terintegrasi untuk akses item atau fitur tertentu
+## Dokumentasi
 
-- 🧠 **Mode Battle NPC**
-  - 1v1, Team Fight, dan Survival melawan NPC dengan hadiah khusus
+Lihat dokumentasi lengkap pada file [README.md](README.md) dan folder `docs/` untuk panduan lengkap instalasi dan penggunaan.
 
-- 🎮 **Mini Games & Event**
-  - Permainan cepat untuk interaksi komunitas
-  - Event harian, mingguan, dan seasonal
+## Instalasi
 
-- 💎 **1000+ Item Custom**
-  - Gacha, farmable, collectibles, dan item eksklusif lainnya
+1. Clone repositori ini:
 
-- 🛠️ **Website & Panel Admin**
-  - Web statis dengan informasi server, leaderboard, & kontributor
-  - Panel admin (opsional) untuk manajemen pengguna dan hadiah
-
----
-
-## 🖥️ Cara Deploy Website
-
-1. Upload `index.html` ke repositori
-2. Aktifkan GitHub Pages:
-   - Settings > Pages > Source: `main` branch > root
-3. Akses dari:  
-   `https://username.github.io/GiftHub/`
-
----
-
-## 🧑‍💻 Kontribusi
-
-Ingin bantu kembangkan GrowRushPS? Silakan fork repo ini, buat branch baru, dan kirim **pull request**.
-
-Kami membuka kontribusi untuk:
-- UI/UX web
-- Script reward otomatis
-- Dokumentasi server
-- Sistem ranking dan giveaway
-
----
-
-## 📁 Struktur Direktori (Rencana)
+   ```bash
+   git clone https://github.com/GrowRushPS/GiftHub.git
