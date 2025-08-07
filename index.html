@@ -1,45 +1,117 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>GrowRushPS – GiftHub</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      margin: 0;
-      padding: 20px;
+    /* Reset & base */
+    * {
+      box-sizing: border-box;
+      margin: 0; padding: 0;
     }
-
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 15px;
+    }
+    .container {
+      background: white;
+      border-radius: 15px;
+      max-width: 720px;
+      width: 100%;
+      padding: 40px 50px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+      animation: fadeIn 1s ease forwards;
+    }
     header {
       text-align: center;
       margin-bottom: 40px;
     }
-
-    h1 {
-      font-size: 2.5em;
+    header h1 {
+      font-size: 3em;
       color: #6a1b9a;
+      font-weight: 700;
+      margin-bottom: 8px;
+      letter-spacing: 2px;
     }
-
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    header p {
+      font-size: 1.2em;
+      color: #7a6ca8;
+      font-weight: 500;
+      font-style: italic;
     }
-
-    .feature {
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 2em;
+      color: #8e44ad;
       margin-bottom: 20px;
+      border-bottom: 3px solid #dda0dd;
+      padding-bottom: 8px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      display: inline-block;
     }
-
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      font-size: 1.1em;
+      margin-bottom: 15px;
+      padding-left: 35px;
+      position: relative;
+      font-weight: 600;
+      color: #5e3674;
+      transition: color 0.3s ease;
+      cursor: default;
+    }
+    ul li::before {
+      content: "🎁";
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 1.2em;
+      line-height: 1.2;
+      color: #ab47bc;
+      transition: transform 0.3s ease;
+    }
+    ul li:hover {
+      color: #8e44ad;
+    }
+    ul li:hover::before {
+      transform: scale(1.3);
+    }
+    p.documentation {
+      font-size: 1.05em;
+      color: #6d5a87;
+      font-weight: 500;
+      line-height: 1.6;
+      border-left: 5px solid #ab47bc;
+      padding-left: 15px;
+      font-style: italic;
+    }
     footer {
       text-align: center;
-      margin-top: 40px;
       font-size: 0.9em;
-      color: #888;
+      color: #8e44ad;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-top: 60px;
+      user-select: none;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      0% {opacity: 0; transform: translateY(20px);}
+      100% {opacity: 1; transform: translateY(0);}
     }
   </style>
 </head>
@@ -50,19 +122,19 @@
       <p>Hadiah otomatis dan sistem pengelolaan server Growtopia Private Server (GTPS)</p>
     </header>
 
-    <section class="feature">
+    <section>
       <h2>🎁 Fitur Utama</h2>
       <ul>
-        <li>✅ Otomatisasi hadiah melalui API GTPS (Port 24226)</li>
-        <li>📦 Mini game, Gacha, dan Item Custom</li>
-        <li>🔐 Sistem role & akses berdasarkan pembayaran</li>
-        <li>🚀 Siap dikembangkan komunitas</li>
+        <li>Otomatisasi hadiah melalui API GTPS (Port 24226)</li>
+        <li>Mini game, Gacha, dan Item Custom</li>
+        <li>Sistem role & akses berdasarkan pembayaran</li>
+        <li>Siap dikembangkan komunitas</li>
       </ul>
     </section>
 
-    <section class="feature">
+    <section>
       <h2>📘 Dokumentasi</h2>
-      <p>Cek file <code>README.md</code> atau dokumentasi lainnya untuk panduan integrasi.</p>
+      <p class="documentation">Cek file <code>README.md</code> atau dokumentasi lainnya untuk panduan integrasi.</p>
     </section>
 
     <footer>
