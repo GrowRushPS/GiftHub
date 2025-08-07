@@ -68,5 +68,5 @@ GrowRushPS adalah server private yang terpisah dari server resmi Growtopia. Pera
 
 ---
 
-**© 2025 GrowRushPS. Dibuat dengan ❤️ oleh komunitas GTPS Indonesia.**  
+© 2025 GrowRushPS. Dibuat dengan ❤️ oleh komunitas GTPS Indonesia.  
 Kami tidak berafiliasi atau didukung oleh Ubisoft.
