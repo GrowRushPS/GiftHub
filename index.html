@@ -1,198 +1,37 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>GrowRushPS – GiftHub</title>
-<style>
-  /* Reset */
-  * {
-    margin:0; padding:0; box-sizing: border-box;
-  }
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
-    color: #3e2c63;
-    min-height: 100vh;
-    padding: 30px 15px;
-  }
-  a {
-    color: #6a1b9a;
-    text-decoration: none;
-    font-weight: 700;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  .container {
-    max-width: 720px;
-    margin: auto;
-    background: white;
-    border-radius: 20px;
-    padding: 40px 50px;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  }
-  nav {
-    margin-bottom: 30px;
-  }
-  nav ul {
-    list-style:none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-  nav ul li {
-    font-weight: 600;
-  }
-  nav ul li a {
-    padding: 8px 12px;
-    display: inline-block;
-  }
-  nav ul.other {
-    margin-top: 15px;
-    border-top: 1px solid #dda0dd;
-    padding-top: 15px;
-    font-size: 0.9rem;
-  }
-  h1 {
-    font-size: 3rem;
-    color: #6a1b9a;
-    font-weight: 700;
-    margin-bottom: 15px;
-    letter-spacing: 2px;
-    text-align: center;
-  }
-  h2 {
-    color: #8e44ad;
-    border-bottom: 3px solid #dda0dd;
-    padding-bottom: 8px;
-    margin-bottom: 20px;
-    font-weight: 600;
-  }
-  p.intro {
-    font-style: italic;
-    font-weight: 500;
-    color: #7a6ca8;
-    margin-bottom: 35px;
-    line-height: 1.5;
-    text-align: center;
-  }
-  ul.features, ul.interesting {
-    list-style:none;
-    padding-left: 0;
-    margin-bottom: 40px;
-  }
-  ul.features li, ul.interesting li {
-    padding-left: 35px;
-    position: relative;
-    margin-bottom: 15px;
-    font-weight: 600;
-    color: #5e3674;
-  }
-  ul.features li::before {
-    content: "🎁";
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 1.2rem;
-    color: #ab47bc;
-  }
-  ul.interesting li::before {
-    content: "✔️";
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 1.2rem;
-    color: #ab47bc;
-  }
-  section {
-    margin-bottom: 40px;
-  }
-  footer {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #8e44ad;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-top: 60px;
-    user-select: none;
-  }
-  blockquote {
-    border-left: 5px solid #ab47bc;
-    padding-left: 15px;
-    font-style: italic;
-    color: #6d5a87;
-    margin-bottom: 40px;
-  }
-  strong {
-    font-weight: 700;
-  }
-</style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GrowRushPS</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <nav>
-      <ul>
-        <li><a href="https://growrushps.github.io/GiftHub/index.html">Home</a></li>
-        <li><a href="https://growrushps.github.io/GiftHub/serverteam.html">Server Teams</a></li>
-        <li><a href="https://growrushps.github.io/GiftHub/howtoplay.html">How To Play</a></li>
-        <li><a href="https://growrushps.github.io/GiftHub/communitygroup.html">Community Group</a></li>
-      </ul>
-      <ul class="other">
-        <li><a href="https://growrushps.github.io/GiftHub/faq.html">Faq</a></li>
-        <li><a href="https://growrushps.github.io/GiftHub/purchase.html">Purchase GTPS</a></li>
-      </ul>
-    </nav>
+    <header>
+        <h1>Selamat Datang di GrowRushPS</h1>
+        <p>Private Server Growtopia dengan fitur terbaik</p>
+        <a href="#" class="btn">Main Sekarang</a>
+    </header>
 
-    <h1>GrowRushPS</h1>
-    <p class="intro">
-      Selamat datang di GrowRushPS!<br />
-      Bosankah kamu dengan permainan yang itu-itu saja? Ingin sesuatu yang baru, seru, dan penuh kejutan? Kamu sudah menemukan tempat yang tepat!<br />
-      GrowRushPS bukan sekadar server private biasa, tapi cara baru menikmati Growtopia. Kami mengambil gameplay klasik yang kamu sukai dan menambahkan sentuhan khusus: lebih banyak fitur, kebebasan lebih besar, dan komunitas yang selalu aktif.
-    </p>
-
-    <section>
-      <h2>Fitur</h2>
-      <ul class="features">
-        <li><strong>Konfigurasi Server</strong><br />Atur event, prefix world, link, dan lainnya dalam satu tempat yang cepat, mudah, dan fleksibel.</li>
-        <li><strong>Mini Game & Gacha</strong><br />Masuki berbagai mini game dan sistem gacha unik untuk keseruan tiada henti.</li>
-        <li><strong>Sistem Role & Akses Berbasis Pembayaran</strong><br />Kelola role dan akses pemain berdasarkan pembayaran secara otomatis.</li>
-        <li><strong>Event & Giveaway Harian</strong><br />Ikuti event mingguan/bulanan dan klaim hadiah giveaway harian secara otomatis.</li>
-      </ul>
+    <section class="features">
+        <h2>Fitur GrowRushPS</h2>
+        <ul>
+            <li>⚙️ Kustomisasi server lengkap</li>
+            <li>🧠 Mode Pertarungan NPC 1v1 dan Tim</li>
+            <li>🎮 Mini games dan misi harian</li>
+            <li>🎁 Undian harian untuk semua pemain</li>
+            <li>🧱 Ribuan item unik & eksklusif</li>
+            <li>🛠️ Update dan perbaikan rutin</li>
+        </ul>
     </section>
 
-    <section>
-      <h2>Apa yang Menarik?</h2>
-      <ul class="interesting">
-        <li>Ribuan Item Kustom Unik — farmable, gacha, dan collectible eksklusif.</li>
-        <li>Update Harian & Perbaikan Bug — kami selalu tingkatkan pengalaman pemain.</li>
-        <li>Event dan Hadiah Seru — aktifkan diri di berbagai aktivitas dan menangkan hadiah.</li>
-        <li>Komunitas Aktif & Sistem Trading — interaksi dengan pemain lain yang hidup.</li>
-        <li>Developer Profesional — tim yang berdedikasi untuk peningkatan berkelanjutan.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Dukungan & Kebijakan Privasi</h2>
-      <blockquote>
-        Jika ada masalah, pertanyaan, atau ingin menyapa, tim dukungan kami siap membantu. Sebelum menghubungi, harap cek dulu FAQ untuk masalah umum.<br /><br />
-        ⚠️ <strong>Peringatan:</strong> Melakukan chargeback akan menyebabkan banned permanen dari server dan toko. Pengajuan banding untuk chargeback tidak akan diterima.<br /><br />
-        Kami menghargai kepercayaanmu dan berkomitmen menjaga data pribadi tetap aman. Informasi seperti alamat IP, perangkat, username, email (jika disediakan), inventaris, statistik, dan log chat hanya digunakan untuk keamanan dan privasi. Dengan menggunakan server kami, kamu setuju dengan kebijakan ini.<br /><br />
-        Untuk pertanyaan lebih lanjut, silakan hubungi kami melalui kontak yang tersedia.
-      </blockquote>
-    </section>
-
-    <section>
-      <h2>Panduan</h2>
-      <p>
-        GrowRushPS adalah server private yang terpisah dari server resmi Growtopia. Peraturan resmi Growtopia mungkin tidak berlaku di server ini.
-      </p>
+    <section class="faq">
+        <h2>FAQ</h2>
+        <p>Tanya jawab umum seputar GrowRushPS</p>
     </section>
 
     <footer>
-      © 2025 GrowRushPS. Dibuat dengan ❤️ oleh komunitas GTPS Indonesia.<br />
-      Kami tidak berafiliasi atau didukung oleh Ubisoft.
+        <p>&copy; 2025 GrowRushPS. Semua hak dilindungi.</p>
     </footer>
-  </div>
 </body>
 </html>
